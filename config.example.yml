@@ -1,0 +1,17 @@
+---
+config:
+  # token for access
+  token: bYfH9QbZcbuNrwd99xDLTS47CTVpLT2sZhuYgdhZPQLhzK4LiLTjZ5TQJ4nSTkNchg52jTULUpfrU
+proxmox:
+  - server: 10.10.10.10
+    node: example-ndoe
+    token: secret-access
+nas:
+  - server: 10.10.10.100
+    type: truenas # only freenas and truenas option
+    token: secret-access
+idrac:
+  # example using default values
+  - server: 10.10.10.101
+    username: root
+    password: calvin
